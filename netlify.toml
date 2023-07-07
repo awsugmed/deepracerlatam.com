@@ -18,3 +18,7 @@ for = "/*"
     Content-Security-Policy = "upgrade-insecure-requests"
     Referrer-policy = "strict-origin"
     Permissions-Policy = "geolocation=(),midi=(),sync-xhr=(),microphone=(),camera=(),magnetometer=(),gyroscope=(),fullscreen=(self),payment=()"
+
+[build]
+    command = "npm run build && npm run export"
+    publish = "out"
