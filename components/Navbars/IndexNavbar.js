@@ -12,7 +12,7 @@ export default function Navbar(props) {
         <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <Link href="/">
-                Notus NextJS
+                DEEPRACER LATAM
             </Link>
             <button
               className="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
@@ -29,18 +29,8 @@ export default function Navbar(props) {
             }
             id="example-navbar-warning"
           >
-            <ul className="flex flex-col lg:flex-row list-none mr-auto">
-              <li className="flex items-center">
-                <a
-                  className="hover:text-blueGray-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                  href="https://www.creative-tim.com/learning-lab/tailwind/nextjs/overview/notus?ref=nnjs-index-navbar"
-                >
-                  <i className="text-blueGray-400 far fa-file-alt text-lg leading-lg mr-2" />{" "}
-                  Docs
-                </a>
-              </li>
-            </ul>
-            <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
+
+            {/* <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
               <li className="flex items-center">
                 <IndexDropdown />
               </li>
@@ -85,7 +75,7 @@ export default function Navbar(props) {
                   <i className="fas fa-arrow-alt-circle-down"></i> Download
                 </button>
               </li>
-            </ul>
+            </ul> */}
           </div>
         </div>
       </nav>
