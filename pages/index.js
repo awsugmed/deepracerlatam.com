@@ -59,17 +59,46 @@ export default function Index() {
 
       <section className="py-20 bg-blueGray-600 overflow-hidden">
         <div className="container mx-auto pb-64">
-          <div className="flex flex-wrap justify-center">
-            <div className="w-full md:w-5/12 px-12 md:px-4 ml-auto mr-auto md:mt-64">
-    
-              <h3 className="text-3xl mb-2 font-semibold leading-normal text-white">
-                Clasificatorias 2023
-              </h3>
-              
-              
-            </div>
-
+          <div className="text-white font-bold text-center text-6xl">
+            Calendario Latam 2023
           </div>
+          <br></br>
+          <br></br>
+          <div className="flex flex-col text-2xl">
+            <div className="text-white font-bold whitespace-normal text-left">
+              <span class="fi fi-co"></span> Community Day Colombia
+              <br></br>
+              Agosto 2, 2023
+              <br></br>
+              Workshop Virtual
+            </div>
+            <i className="fa-solid fa-gears text-center"></i>
+            <div className="text-white font-bold whitespace-normal text-right">
+              <span class="fi fi-co"></span> Community Day Colombia
+              <br></br>
+              Agosto 12, 2023
+              <br></br>
+              Competencia Física
+            </div>
+            <div className="text-white font-bold whitespace-normal text-left">
+              <span class="fi fi-pe"></span> Conf Perú
+              <br></br>
+              Septiembre 14, 2023
+              <br></br>
+              Workshop Virtual              
+            </div>
+            <i className="fa-solid fa-gears text-center"></i>
+            <div className="text-white font-bold whitespace-normal text-right">
+              <span class="fi fi-pe"></span> Conf Perú
+              <br></br>
+              Septiembre 23, 2023
+              <br></br>
+              Competencia Física
+            </div>
+          </div>
+
+
+
         </div>
       </section>
 
@@ -156,7 +185,7 @@ export default function Index() {
             </div>
 
             <div className="w-full md:w-4/12 px-12 md:px-4 ml-auto mr-auto mt-48">
-            <iframe width="448" height="252" src="https://www.youtube.com/embed/Q_ky7CP7hZM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="448" height="252" src="https://www.youtube.com/embed/Q_ky7CP7hZM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
             </div>
           </div>
         </div>
@@ -201,11 +230,11 @@ export default function Index() {
                     <a href="https://www.linkedin.com/in/carloscortezcloud/" target="_blank"><i className="fa-brands fa-linkedin" ></i> Contacto: Carlos Cortez </a>
                   </h5>              
                   <Link href="https://www.linkedin.com/company/awsusergroupperu/">
-                    <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
+                    <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-black w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
                       <img
                         alt="AWS Users Group Perú"
                         className="align-middle border-none max-w-full h-auto rounded-lg"
-                        src="/img/aws_ug_medellin.png"
+                        src="/img/aws-ug-peru.png"
                       />
                     </div>
                   </Link>

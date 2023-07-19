@@ -25,7 +25,7 @@ export default function Footer() {
         </div>
         <div className="container mx-auto px-4">
           <div className="flex flex-wrap text-center lg:text-left">
-            <div className="w-full lg:w-6/12 px-4">
+            {/* <div className="w-full lg:w-6/12 px-4">
               <h4 className="text-3xl font-semibold">Let's keep in touch!</h4>
               <h5 className="text-lg mt-0 mb-2 text-blueGray-600">
                 Find us on any of these platforms, we respond 1-2 business days.
@@ -56,26 +56,26 @@ export default function Footer() {
                   <i className="fab fa-github"></i>
                 </button>
               </div>
-            </div>
+            </div> */}
             <div className="w-full lg:w-6/12 px-4">
               <div className="flex flex-wrap items-top mb-6">
                 <div className="w-full lg:w-4/12 px-4 ml-auto">
                   <span className="block uppercase text-blueGray-500 text-sm font-semibold mb-2">
-                    Useful Links
+                    Links Importantes
                   </span>
                   <ul className="list-unstyled">
                     <li>
                       <a
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                        href="https://www.creative-tim.com/presentation?ref=nnjs-footer"
+                        href="./about"
                       >
-                        About Us
+                        Nosotros
                       </a>
                     </li>
                     <li>
                       <a
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                        href="https://blog.creative-tim.com?ref=nnjs-footer"
+                        href="https://blog.deepracerlatam.com"
                       >
                         Blog
                       </a>
@@ -83,56 +83,48 @@ export default function Footer() {
                     <li>
                       <a
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                        href="https://www.github.com/creativetimofficial?ref=nnjs-footer"
+                        href="https://www.github.com/deepracerlatam"
                       >
                         Github
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                        href="https://www.creative-tim.com/bootstrap-themes/free?ref=nnjs-footer"
-                      >
-                        Free Products
                       </a>
                     </li>
                   </ul>
                 </div>
                 <div className="w-full lg:w-4/12 px-4">
                   <span className="block uppercase text-blueGray-500 text-sm font-semibold mb-2">
-                    Other Resources
+                    Otros Recursos
                   </span>
                   <ul className="list-unstyled">
                     <li>
                       <a
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                        href="https://github.com/creativetimofficial/notus-nextjs/blob/main/LICENSE.md?ref=nnjs-footer"
+                        href="https://deepracing.io/"
                       >
-                        MIT License
+                        DeepRacing.io
                       </a>
                     </li>
                     <li>
                       <a
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                        href="https://creative-tim.com/terms?ref=nnjs-footer"
+                        href="https://aws.amazon.com/es/deepracer/"
                       >
-                        Terms & Conditions
+                        AWS DeepRacer
                       </a>
                     </li>
                     <li>
                       <a
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                        href="https://creative-tim.com/privacy?ref=nnjs-footer"
+                        href="https://aws-deepracer-community.github.io/deepracer-for-cloud/"
                       >
-                        Privacy Policy
+                        Entrenamiento en local
                       </a>
                     </li>
                     <li>
                       <a
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                        href="https://creative-tim.com/contact-us?ref=nnjs-footer"
+                        href="https://github.com/aws-deepracer-community/deepracer-on-the-spot"
                       >
-                        Contact Us
+                        Entrenamiento en Spot
                       </a>
                     </li>
                   </ul>
